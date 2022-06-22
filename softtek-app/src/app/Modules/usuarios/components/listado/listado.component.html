@@ -1,0 +1,5 @@
+
+  <!--   Espero a que los datos existan para luego enviarlos al componente que los muestra. -->
+    <div *ngIf="usersReady">
+        <app-tabla-listado [users]="users"></app-tabla-listado>
+    </div>
